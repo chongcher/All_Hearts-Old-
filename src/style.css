@@ -1,0 +1,121 @@
+.element, .outer-container {
+ width: 1300px;
+ height: 345px;
+}
+ 
+.element{
+ /*border: 5px solid red;*/
+}
+
+.outer-container {
+ /*border: 1px solid purple;*/
+ position: relative;
+ padding-bottom: 20px;
+ overflow: hidden;
+ margin: auto;
+}
+ 
+.inner-container {
+ /*border: 5px solid blue;*/
+ position: absolute;
+ left: 0;
+ overflow-x: hidden;
+ overflow-y: scroll;
+}
+ 
+.inner-container::-webkit-scrollbar {
+ display: none;
+}
+
+body{
+    background: #1a1915; /*all hearts logo black */
+    color: #eeeeee;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px auto;
+    padding: 2%;
+    text-align: center;
+}
+
+form.center{
+  margin: 0 auto; 
+  width:1300px;
+}
+
+div,p,table,tr {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: center;
+}
+
+div.back{
+  padding-top: 0.5cm;
+}
+
+div.leftHalf{
+  float: left;
+  width: 50%;
+}
+
+div.rightHalf{
+  float: right;
+  width: 50%;
+}
+
+table.bordered{
+  border-collapse: collapse;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+td.bordered {
+  border: 1px solid grey;
+  padding: 5px;
+}
+ 
+td.left_cell{
+  text-align: right;
+  padding-right: 10px;
+}
+
+td.right_cell{
+  text-align: left;
+}
+
+td.center_cell{
+  text-align: center;
+}
+
+button  {
+  background: #1a1915;
+  border: 3px single;
+  color: #eeeeee;
+  cursor: pointer;
+  font-size: 110%;
+  transition: background .5s ease-in-out;
+}
+
+
+button:hover{
+  background: #eeeeee;
+  color: #1a1915;
+  cursor: pointer;
+  transition: background .5s ease-in-out;
+}
+
+.backButton{
+  background: #1a1915;
+  border: 3px single;
+  color: #eeeeee;
+  cursor: pointer;
+  font-size: 80%;
+  transition: background .5s ease-in-out;
+}
+
+.submitButton:hover{
+  background: #bb403b; /*all hearts logo red */
+  color: #fff;
+  cursor: pointer;
+  transition: background .5s ease-in-out;
+}
