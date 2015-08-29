@@ -55,7 +55,7 @@
   function logout(){
     session_unset();
     session_destroy();
-    header('Refresh: 1; URL="../login/default.html"');
+    header('Refresh: 1; URL="../login/default.php"');
     exit();
   }
   //END UTILITY FUNCTIONS
@@ -68,12 +68,12 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href='../style.css'>
-    <title>All Hearts Adventure and Training</title>
+    <title>All Hearts</title>
     <link rel="icon" href="../../img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon"> 
   </head>
   <body>
-    <img src='../../img/allheartsheader.jpg' alt="All Hearts Adventure and Training logo">
+    <img src='../../img/allheartsheader.jpg' alt="All Hearts Adventure and Training logo" height="70%">
     <div class="outer-container">
       <div class="inner-container">
         <div class="element">

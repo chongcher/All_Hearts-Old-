@@ -5,7 +5,7 @@
 
 <div>
   <?php
-    if(!isset($_POST["purchaseSource"]) || !isset($_POST["purchaseDate"])){
+    if(!isset($_POST["purchaseSource"]) || !isset($_POST["purchaseDate"]) || $_POST["purchaseSource"] == "" || $_POST["purchaseDate"] == ""){
       header( "refresh:2; url=logistics.php" );
       exit("Purchase Date or Purchase Source cannot be empty! Please try again!");
     }

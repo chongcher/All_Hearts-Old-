@@ -115,14 +115,6 @@
 ?>
 
 <script>
-function toggleDisplayStyle($formName){
-  $currentDisplayStyle = document.getElementById($formName).style.display;
-  if($currentDisplayStyle == "inline"){
-    document.getElementById($formName).style.display="none";
-  } else{
-    document.getElementById($formName).style.display="inline";
-  }
-}
 function hideButtons(){
   toggleDisplayStyle("viewAllLogisticsButton");
   toggleDisplayStyle("addLogisticsButton");

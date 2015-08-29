@@ -1,6 +1,6 @@
 .element, .outer-container {
  width: 1300px;
- height: 345px;
+ height: 380px;
 }
  
 .element{
@@ -50,7 +50,7 @@ div,p,table,tr {
 }
 
 div.back{
-  padding-top: 0.5cm;
+  padding-top: 0.2cm;
 }
 
 div.leftHalf{

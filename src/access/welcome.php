@@ -2,7 +2,7 @@
   include "../utility/header.php";
   function customError($errno,$errstr){
   echo("<p>Please log in first!</p>");
-    header('Refresh: 2; URL=default.html');
+    header('Refresh: 2; URL=default.php');
     exit();
   }
   set_error_handler("customError");
@@ -16,23 +16,23 @@
 ?>
 
 <div class="leftHalf">
-  <div align="right" style="padding:5px">
-    <iframe width=55% height=320px src="https://chatbox.com/#/p=v6sxBsewAb0SbhhB3MFjaBUrWTTTYBRA63ep0nA="></iframe>
+  <div align="right" style="padding:15px">
+    <iframe width=75% height=340px src="https://chatbox.com/#/p=v6sxBsewAb0SbhhB3MFjaBUrWTTTYBRA63ep0nA="></iframe>
   </div>
 </div>
 
 <div class="rightHalf">
-  <div align="left" style="padding:5px" >
-    <p><button onclick="location.href = '../activities/activities.php';">Activities</button></p>
-    <p><button onclick="location.href = '../bids/bids.php';">Bids</button></p>
-    <p><button onclick="location.href = '../logistics/logistics.php';">Logistics</button></p>
-    <p><button onclick="location.href = '../manpower/manpower.php';">Manpower</button></p>
-    <p><button onclick="location.href = '../payment/payment.php';">Payment</button></p>
-    <p><button onclick="location.href = '../programmes/programmes.php';">Programmes</button></p>
-    <p><button onclick="location.href = '../administration/administration.php';">User Administration</button></p>
+  <div align="left" style="padding:15px" >
+      <p><button onclick="location.href = '../activities/activities.php';" style="width:200px">Activities</button></p>
+      <p><button onclick="location.href = '../bids/bids.php';" style="width:200px">Bids</button></p>
+      <p><button onclick="location.href = '../logistics/logistics.php';" style="width:200px"><strike>Logistics</strike></button></p>
+      <p><button onclick="location.href = '../manpower/manpower.php';" style="width:200px"><strike>Manpower</strike></button></p>
+      <p><button onclick="location.href = '../payment/payment.php';" style="width:200px"><strike>Payment</strike></button></p>
+      <p><button onclick="location.href = '../programmes/programmes.php';" style="width:200px"><strike>Programmes</strike></button></p>
+      <p><button onclick="location.href = '../administration/administration.php';" style="width:200px"><strike>User Administration</strike></button></p>
   </div>
 </div>
-    
+
 <?php
   include "../utility/footer.php";
 ?>
